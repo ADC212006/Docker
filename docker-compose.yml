@@ -1,7 +1,7 @@
 services:
-  vecedile:
+  vicidial:
     image: ghazankhan27/vicidial:latest
-    container_name: vecedile
+    container_name: vicidial
     restart: unless-stopped
     ports:
       - "80:80"

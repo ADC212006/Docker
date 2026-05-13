@@ -1,8 +1,8 @@
 # Docker
 
-## Docker install vecedile (VICIdial) for VOIP calling system
+## Docker install VICIdial for VOIP calling system
 
-This repository now includes a minimal Docker Compose setup to run a vecedile/VICIdial VOIP environment.
+This repository now includes a minimal Docker Compose setup to run a VICIdial VOIP environment.
 
 ### Prerequisites
 - Docker Engine
