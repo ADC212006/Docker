@@ -1,0 +1,12 @@
+services:
+  vecedile:
+    image: ghazankhan27/vicidial:latest
+    container_name: vecedile
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "5060:5060/udp"
+      - "5060:5060/tcp"
+      - "10000-10100:10000-10100/udp"
+    environment:
+      TZ: UTC
